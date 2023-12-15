@@ -19,6 +19,26 @@ h2 {
     color: #333;
 }
 
+.about-container {
+    display: flex;
+}
+
+.image-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.text-container {
+    flex: 2;
+}
+
+img {
+    width: 100%;
+    max-width: 200px; /* Adjust the max-width as needed */
+    height: auto;
+    border-radius: 50%; /* Optional: Add a border-radius for a circular image */
+}
+
 .project {
     margin-bottom: 20px;
 }
